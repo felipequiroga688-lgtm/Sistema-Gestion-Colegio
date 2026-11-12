@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Grupos</title>
+</head>
+<body>
+
+    <h2>Registro de Grupos</h2>
+
+    <form action="grupo.php" method="POST">
+
+        Codigo:
+        <input type="number" name="cod" required>
+        <br><br>
+
+        Nombre:
+        <input type="text" name="nombre" required>
+        <br><br>
+
+        Aula:
+        <input type="text" name="aula" required>
+        <br><br>
+
+        DNI del tutor:
+        <select name="dni_tutor" required>
+            <option value="">Seleccione un DNI</option>
+            <option value="12345678A">12345678A</option>
+            <option value="23456789B">23456789B</option>
+            <option value="34567890C">34567890C</option>
+            <option value="45678901D">45678901D</option>
+            <option value="56789012E">56789012E</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Guardar grupo">
+
+    </form>
+
+</body>
+</html>
+
+

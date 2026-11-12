@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Asignaturas</title>
+</head>
+<body>
+
+    <h2>Registro de Asignaturas</h2>
+
+    <form action="asignatura.php" method="POST">
+
+        Código de la asignatura:
+        <input type="number" name="cod" required>
+        <br><br>
+
+        Nombre de la asignatura:
+        <input type="text" name="nombre" required>
+        <br><br>
+
+        DNI del profesor:
+        <select name="dni_profesor" required>
+            <option value="">Seleccione un profesor</option>
+            <option value="12345678A">Carlos Gomez Perez</option>
+            <option value="23456789B">Maria Lopez Martinez</option>
+            <option value="34567890C">Andres Rodriguez Silva</option>
+            <option value="45678901D">Laura Fernandez Torres</option>
+            <option value="56789012E">Jorge Ramirez</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Guardar asignatura">
+
+    </form>
+
+</body>
+</html>
+
+

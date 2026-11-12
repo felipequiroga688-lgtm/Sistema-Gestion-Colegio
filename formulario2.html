@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Estudiante</title>
+</head>
+<body>
+
+    <h2>Registro de Alumno</h2>
+
+    <form action="estudiante.php" method="POST">
+
+        Numero de expediente:
+        <input type="number" name="nexp" required>
+        <br><br>
+
+        Nombre:
+        <input type="text" name="nombre" required>
+        <br><br>
+
+        Primer apellido:
+        <input type="text" name="apellido1" required>
+        <br><br>
+
+        Segundo apellido:
+        <input type="text" name="apellido2" required>
+        <br><br>
+
+        Fecha de nacimiento:
+        <input type="date" name="fecha_nac" required>
+        <br><br>
+
+        Codigo del grupo:
+        <select name="cod_grupo" required>
+            <option value="">Seleccione un grupo</option>
+            <option value="1">Grupo 1 - 1º A</option>
+            <option value="2">Grupo 2 - 1º B</option>
+            <option value="3">Grupo 3 - 2º A</option>
+            <option value="4">Grupo 4 - 2º B</option>
+            <option value="5">Grupo 5 - 3º A</option>
+            <option value="7">Grupo 7 - 4A</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Guardar Alumno">
+
+    </form>
+
+</body>
+</html>
+

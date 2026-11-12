@@ -1,0 +1,12 @@
+# Contraseñas y configuración local
+conecta.php
+
+# Archivos temporales del sistema
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Respaldos de base de datos (opcional, para que no suban la BD con datos)
+*.sql
+
